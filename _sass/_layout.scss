@@ -175,6 +175,9 @@
 
     > li {
         margin-bottom: $spacing-unit;
+        > h2 {
+            display: inline-block;
+        }
     }
 }
 
