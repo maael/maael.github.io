@@ -26,5 +26,5 @@ var Github = function (options) {
 }
 
 Github.prototype.getRepositories = function (username, callback) {
-	this.makeRequest("users/"+username+"/repos", {"type":"all","sort":"created"}, callback);
+	this.makeRequest("users/"+username+"/repos", {"type":"all","sort":"pushed"}, callback);
 }

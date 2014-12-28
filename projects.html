@@ -10,12 +10,16 @@ permalink: /projects/
 <script type="text/javascript" src="{{ relative }}/bower_components/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="{{ relative }}/js/github.js"></script>
 <script type="text/javascript">
-window.onload = function() {
+(function() {
 var hub = new Github();
     hub.getRepositories("maael", function (repos) {
+      console.log(repos);
       for(var i = 0; i<=5 ; i++){
-        $('.projects').append('<h4>'+repos[i].name+'</h4>');
+        var projectHeader = '<a href="'+repos[i].html_url+'"><h4>'+repos[i].name+'</h4></a>',
+            projectDesc = '<p>'+repos[i].description+'</p>',
+          project = $('<div class="project"></div').append(projectHeader).append(projectDesc);
+        $('.projects').append(project);
       }
     });
-};
+}());
 </script>

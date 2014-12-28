@@ -1,0 +1,24 @@
+.projects {
+	.project {
+		width: 100%;
+
+		& > * {
+			display: inline-block;
+		}
+		& > a {
+			font-size: 1.5em;
+			max-width: 25%;
+			overflow: hidden;
+			padding-right: 5%;
+			text-overflow: ellipsis;
+			vertical-align: bottom;
+
+			& > h4 {
+				font-size: inherit;
+			}
+		}
+		& > p {
+			width: 70%;
+		}
+	}
+}
