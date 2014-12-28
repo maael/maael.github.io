@@ -13,6 +13,11 @@
 			text-overflow: ellipsis;
 			vertical-align: bottom;
 			white-space: nowrap;
+			
+			@include breakpoint(mobile) {
+				max-width: 100%;
+				width: 100%;
+			}
 
 			& > h4 {
 				font-size: inherit;
@@ -24,6 +29,11 @@
 		}
 		& > p {
 			width: 70%;
+			
+			@include breakpoint(mobile) {
+				max-width: 100%;
+				width: 100%;
+			}
 		}
 	}
 }
