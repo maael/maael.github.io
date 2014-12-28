@@ -1,0 +1,21 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+---
+<div class="projects">
+  <h2>Most Recent Github Repositories</h2>
+</div>
+
+<script type="text/javascript" src="{{ relative }}/bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="{{ relative }}/js/github.js"></script>
+<script type="text/javascript">
+window.onload = function() {
+var hub = new Github();
+    hub.getRepositories("maael", function (repos) {
+      for(var i = 0; i<=5 ; i++){
+        $('.projects').append('<h4>'+repos[i].name+'</h4>');
+      }
+    });
+};
+</script>
