@@ -12,9 +12,14 @@
 			padding-right: 5%;
 			text-overflow: ellipsis;
 			vertical-align: bottom;
+			white-space: nowrap;
 
 			& > h4 {
 				font-size: inherit;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				vertical-align: bottom;
+				white-space: nowrap;
 			}
 		}
 		& > p {
