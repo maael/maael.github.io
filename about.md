@@ -4,8 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+My name is Matthew Elphick, and I'm a third year student at [Loughborough University][lboro] studying computer science.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+I spend as much time as I can working on side projects trying to learn new things, you can find my most recent GitHub projects on my [Projects page][projectsPage].
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+[lboro]: http://www.lboro.ac.uk/
+[projectsPage]: {{ relative }}/projects
