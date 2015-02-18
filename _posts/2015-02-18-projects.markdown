@@ -1,0 +1,45 @@
+---
+layout:	post
+title:	"Projects for 2015"
+date: 2015-02-01 11:06:00
+categories: projects, 2015
+---
+Now that I have some more time, I'm beginning to think of projects that I want to work on and finish over the course of this year. Below is a list of some of these projects.
+
+## Design
+
+### A Better Online Application Form
+For the past few months, my girlfriend, my sister and I have all been forced to suffer a fate arguably almost worse than death. We have all been filling out application forms for jobs or placements. And we've all had our share of issues. It seems that while the online application form has been around a while, in many places it hasn't yet been streamlined to a process that doesn't induce rage. 
+
+While going through and trying to find my way through forms, entering information for what felt like the millionth time, I said to myself that there must be a better way to do this.
+
+And as such, I plan to try to create and refine an application form process that can be easily set up and configured in a variety of ways.
+
+For this project I'll use Sass, and use it as a chance to look into the likes of React and all the other front end frameworks that are gaining popularity.
+
+### This Blog
+At the moment this blog is just using a default theme, and I'd like to make it a bit more personal at some point.
+
+### Portfolio
+My [website](http://elphy.co.uk) is currently empty, and so I plan to add some content showcasing myself and my work.
+
+## Development
+
+### Neural Network package for node.js
+Both in my Advanced AI module in my Third Year, and my Third Year Project itself, I studied and implemented Neural Networks. I found the area interesting, and so I plan to continue work on the package after my academic time spent on it.
+
+## Hardware
+
+### Visual Poi
+Poi is a performance art that involves swinging tethered weights through different patterns. There are different kinds of poi, including -
+
+- Basic types that might include tails or streamers.
+- Glow Poi that uses something like LED lights in the weights.
+- Fire Poi, which sets the weights on fire.
+- Visual/Pixel Poi, which is similar to Glow Poi, except rather than a simple LED light, a strip of LEDs is used and updated throughout the performance. This can result in a simple pattern or movement of the lights, or can go a step further and use the circular spin on the poi effectively as refreshing a graphical buffer to draw moving images in the air.
+
+Is is this final type, Visual/Pixel Poi that this project will focus on.
+
+The plan at the moment is to use an [Adafruit Trinket](http://www.adafruit.com/product/1500) mini microcontroller to control an [Adafruit NeoPixel Digital RGB LED Strip](http://adafruit.com/products/1461).
+
+At the moment I don't have any real experience with hardware projects, so this is going to be an interesting experience for me.
